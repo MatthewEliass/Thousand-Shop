@@ -1,0 +1,32 @@
+{
+  "homepage": "http://mattheweliass.github.io/thousand-shop",
+  "name": "thousand-shop",
+  "version": "1.0.0",
+  "description": "Personal e-commerce webpage to practice JavaScript and React, as well as connecting Stripe",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewEliass/Thousand-Shop.git"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "Matthew Elias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewEliass/Thousand-Shop/issues"
+  },
+  "homepage": "https://github.com/MatthewEliass/Thousand-Shop#readme"
+}
